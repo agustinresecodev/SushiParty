@@ -1,5 +1,11 @@
 # Sushi Party 
-# 1. Tecnologías utilizadas
+
+Proyecto de Frontend para desarrollo con HTML5, CSS y Bootstrap ambientado en una carta de restaurante, donde realizaremos una vista Home de presentacion del establecimiento, una carta, donde subiremos algunos platos y un formulario de contacto. 
+El objetivo de este repositorio es centrarse en el diseño responsive principalmente.
+
+En los diferentes archivos tendrás comentarios que te ayudaran a entender el como ajustarlo a tu web.
+
+## 1. Tecnologías utilizadas
        
        
 
@@ -18,7 +24,7 @@
 ### Bootstrap: Empleado para agilizar el proceso de maquetado, y estilo ademas de diseño responsive.
 ![icons-hero](https://hackmd.io/_uploads/SytcEziPp.png)
 
-# 2. Vistas del proyecto desde pc y telefono
+## 2. Vistas del proyecto desde pc y telefono
 
 
 
@@ -36,7 +42,7 @@
 
 
 
-# 3. Como implementar este reposiorio en tu equipo
+## 3. Como implementar este reposiorio en tu equipo
 
 Para implementar el repositorio en vuestro equipo tendreis que instalar la consola de Git para poder realizar la clonacion del repositorio.
 
