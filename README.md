@@ -4,17 +4,18 @@
        
 
 
-HTML5: Empleado para la maquetacion de la página
+### HTML5: Empleado para la maquetacion de la página
 
-![HTML5_logo_and_wordmark.svg](https://hackmd.io/_uploads/ryssVGowp.png)
+![HTML5_Logo_256](https://hackmd.io/_uploads/Hkw6tfsvp.png)
+
 
              
-CSS3: Empleado para dar estilo al sitio web
+### CSS3: Empleado para dar estilo al sitio web
     
-![css3-logo-png-transparent](https://hackmd.io/_uploads/B1JKEfowa.png)
+![css3-logo-png-transparent](https://hackmd.io/_uploads/SJu3tfoPT.png)
+
       
-Bootstrap: Empleado para agilizar el proceso de maquetado, y estilo ademas 
-            de diseño responsive.
+### Bootstrap: Empleado para agilizar el proceso de maquetado, y estilo ademas de diseño responsive.
 ![icons-hero](https://hackmd.io/_uploads/SytcEziPp.png)
 
 # 2. Vistas del proyecto desde pc y telefono
@@ -37,7 +38,7 @@ Bootstrap: Empleado para agilizar el proceso de maquetado, y estilo ademas
 
 # 3. Como implementar este reposiorio en tu equipo
 
-Para poder implementar el repositorio en vuestro equipo tendreis que instalar la consola de Git para poder realizar la clonacion del repositorio.
+Para implementar el repositorio en vuestro equipo tendreis que instalar la consola de Git para poder realizar la clonacion del repositorio.
 
 1. Nos iremos a la pagina de Git (https://git-scm.com/) y descargaremos e instalaremos la version que necesitemos.
 2. Abriremos una consola de Git y iremos al directorio donde queramos clonar el repositorio con el siguiente comando.
@@ -49,4 +50,3 @@ cd tu_directorio
 git clone https://github.com/agustinresecodev/SushiParty
 
 ``` 
-
