@@ -11,67 +11,87 @@
   </head>
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-sm sticky-top navbar-dark" id="navegador">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Sushi Party</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="./index.html">Inicio</a>
-              </li>
+    <!-- Menu de navegacion-->
+    <header>
+      <nav class="navbar navbar-expand-sm sticky-top navbar-dark" id="navegador">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Sushi Party</a>
 
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./menu.html">Carta</a>
-              </li>
+            <!--Boton de Toggle que se activara en la vista de moviles -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--Contenido del menu de navegacion que seran ocultados en la vista de moviles-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
+                <!-- cada uno de los accesos del menú de navegación deberan ir dentro de una etiqueta <div class="nav-item"> con una etiqueta <a class='nav-link'> 
+                  seguido de active en caso de que sea la pagina actual -->
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./menu.html">Carta</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link active" href="./contact.html">Contacto</a>
+                </li>
+                
+                
+              </ul>
               
-              <li class="nav-item">
-                <a class="nav-link active" href="./contact.html">Contacto</a>
-              </li>
-              
-              
-            </ul>
-            
+            </div>
           </div>
-        </div>
-      </nav>
-</header>
+        </nav>
+    </header>
 
     <main>
-        
+          <!-- Contenedor del Formulario-->
           <div class="container" id="form">
+          
+            <!-- Titulo del Formulario-->
           <h1> Formulario de Contacto</h1>
+          
           <form>
-
+          
+            <!-- Entrada de tipo email-->
             <div class="mb-3">
+
               <label for="exampleInputEmail1" class="form-label">Direccion de Correo</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
               <div id="emailHelp" class="form-text">No compartiremos tu correo con nadie mas.</div>
             </div>
             
+            <!-- Entrada tipo text area-->
             <div class="mb-3">
               <label for="exampleTextArea" class="form-label">Mensaje</label>
               <textarea class="form-control" id="exampleTextArea"></textarea>
             </div>
             
+            <!-- Entrada tipo checkbox-->
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label required" for="exampleCheck1">Acepto los terminos y condiciones</label>
             </div>
             
+            <!-- Boton de envio-->
             <button type="submit" class="btn btn-primary">Enviar Formulario</button>
+          
           </form>
         </div>
       
     </main>
     
+    <!-- footer -->
     <footer>
+      <!-- Contenedor del footer  que cogera todo el largo de la pantalla-->
       <div class="container-fluid">
+        <!-- Contenedor que nos centrará los elementos en la pagina y contendrá el contenido principal del footer-->
         <div class="container-md">
+          <!-- div responsive con división de 2 en vista md o mayor y uno arriba del otro en pantallas pequeñas-->
           <div class="row">
             <div class="col-xs-12 col-md-6">
               <p>Sushi Party</p>
@@ -79,8 +99,8 @@
               <p>Direccion: Calle Falsa 123</p>
               <p>Correo: info@sushiparty.com</p>
             </div>
-            <div class="col">
-              <p>Desarrollado por: Agustin Reseco<a href=""></a></p>
+            <div class="col-xs-12 col-md-6">
+              <a href="https://github.com/agustinresecodev/">Desarrollado por: Agustin Reseco</a>
             </div>
           </div>
         </div>
