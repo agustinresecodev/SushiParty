@@ -1,0 +1,82 @@
+
+/* Incluimos la fuente en el css */
+@font-face {
+    font-family: 'Akira';
+    src: url(../fonts/Japanese.ttf);
+}
+
+/* Efecto a elemento navitem */
+nav-item:hover{
+    color: #FEFBB7;
+}
+
+/* Efecto a elemento con id navegador */
+#navegador{
+    background-color: black;
+    border-radius: 0em;
+    font-family: 'Akira';
+    font-size: 1.5em;
+    position:sticky;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Akira';
+    color: white;
+}
+
+main{
+    background-color: #323232;
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding-bottom: 2em;
+}
+
+/* Efecto a elemento container-lg en main */
+main .container-lg{
+    background-color: white;
+    margin: 0em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    height: 100%;
+    width: 100%;
+    box-shadow: 5px 5px 10px #323232 ;
+    
+}
+
+#form{
+    padding-top: 3rem;
+    padding-bottom: 13rem;
+    background-color: #323232;
+}
+
+
+/* Estilos de las tarjetas de menu */
+.card{
+    margin: 0.5em;
+    border-radius: 0.5em;
+}
+.card-body{
+    background-color: #8a8a8a;
+    color: white;
+    font-family: 'Akira';
+    
+    text-align: center;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 5px 5px 10px #323232 ;
+}
+.card:hover{
+    box-shadow: 5px 5px 10px black ;
+}
+
+
+/* Estilos del footer */
+footer{
+    background-color: black;
+    color: white;
+    font-family: 'Akira';
+    text-align: center;
+    padding: 1em;
+}

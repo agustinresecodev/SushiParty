@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carta</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta name="author" content="Agustin Reseco">
+    <meta name="description" content="Carta de Sushi Party">
+    <meta name="keywords" content="Sushi, Sushi Party, Carta, Comida Japonesa">
 
+    <title>Carta</title>
+
+    <!-- Links -->
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+    <!-- Barra de navegacion -->
+    <nav class="navbar sticky-top navbar-expand-sm  navbar-dark" id="navegador">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">Sushi Party</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,53 +30,208 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                <a class="nav-link " aria-current="page" href="./index.html">Inicio</a>
               </li>
-              <li><a class="nav-link active" href="./contact.html">Contacto</a></li>
-              <li><a class="nav-link active" href="./menu.html">Menu</a></li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./menu.html">Carta</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contacto</a>
+              </li>
+              
+              
             </ul>
+            
           </div>
         </div>
       </nav>
-  </header>
-    <main class="content">
-      <div class="container-fluid">
-        <div class="container-md">
-          <div class="row row-cols-4">
-             <div class="col">
-              
-              <div class="card bg-secondary text-white" >
-                <img src="./img/1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Surtido de Sushi</h5>
-                  <p class="card-text">Contiene 4 piezas de sushi a elegir</p>
-                  <a href="#" class="btn btn-primary">Pedir 20€</a>
-                </div>
-              </div>
-             </div>
+</header>
+    <main>
+      
+      <div class="container">
+        <div class="container">
+          <h1>Nuestra carta</h1>
 
+          <!-- DIV DONDE IRAN LOS DIFERENTES PLATOS DE LA CARTA-->
+          
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-4 ">
+              
+                  <!-- Div contenedor de la card-->
+                <div class="card" >
+                
+                  <!-- Imagen de la card-->
+                  <img src="./img/1.jpg" class="card-img-top" alt="...">
+                
+                  <!-- Div contenedor del cuerpo de la card-->
+                  <div class="card-body">
+                 
+                  <!-- Titulo de la card-->
+                    <h3 class="card-title">Surtido de Sushi</h3>
+                 
+                  <!-- Texto de la card-->
+                    <p class="card-text">Contiene 8 piezas de sushi a elegir</p>
+                 
+                  <!-- Boton de la card con el precio-->
+                    <a href="#" class="btn btn-primary">Pedir 10€</a>
+                
+                  </div>
+                </div>                     
+              </div>
+
+            <div class="col-12 col-md-6 col-lg-4 ">
+              
+                <!-- Div contenedor de la card-->
+              <div class="card" >
+              
+                <!-- Imagen de la card-->
+                <img src="./img/2.jpg" class="card-img-top" alt="...">
+              
+                <!-- Div contenedor del cuerpo de la card-->
+                <div class="card-body">
+               
+                <!-- Titulo de la card-->
+                  <h3 class="card-title">Temaki de Salmon</h3>
+               
+                <!-- Texto de la card-->
+                  <p class="card-text">1 temaki de salmon con aguacate</p>
+               
+                <!-- Boton de la card con el precio-->
+                  <a href="#" class="btn btn-primary">Pedir 4,5€</a>
+              
+                </div>
+              </div>                     
+            </div>
+
+
+          <div class="col-12 col-md-6 col-lg-4 ">
+              
+              <!-- Div contenedor de la card-->
+            <div class="card" >
+            
+              <!-- Imagen de la card-->
+              <img src="./img/3.jpg" class="card-img-top" alt="...">
+            
+                <!-- Div contenedor del cuerpo de la card-->
+              <div class="card-body">
+             
+                <!-- Titulo de la card-->
+                <h3 class="card-title">Temaki de anguila</h3>
+             
+                <!-- Texto de la card-->
+                <p class="card-text">Temaki de anguila aguacate </p>
+             
+                <!-- Boton de la card con el precio-->
+                <a href="#" class="btn btn-primary">Pedir 4,5€</a>
+            
+              </div>
+            </div>                     
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-4 ">
+              
+            <!-- Div contenedor de la card-->
+            <div class="card" >
+          
+            <!-- Imagen de la card-->
+            <img src="./img/4.jpg" class="card-img-top" alt="...">
+          
+              <!-- Div contenedor del cuerpo de la card-->
+            <div class="card-body">
+           
+              <!-- Titulo de la card-->
+              <h3 class="card-title">Arroz Frito</h3>
+           
+              <!-- Texto de la card-->
+              <p class="card-text">Contiene 1 racion de Arroz Frito</p>
+           
+              <!-- Boton de la card con el precio-->
+              <a href="#" class="btn btn-primary">Pedir 3€</a>
+          
+            </div>
+          </div>                     
+        </div>
              
 
-          </div>
-          
-          
-        </div>
+        <div class="col-12 col-md-6 col-lg-4 ">
+              
+          <!-- Div contenedor de la card-->
+        <div class="card" >
         
+          <!-- Imagen de la card-->
+          <img src="./img/5.jpg" class="card-img-top" alt="...">
+        
+            <!-- Div contenedor del cuerpo de la card-->
+          <div class="card-body">
+         
+            <!-- Titulo de la card-->
+            <h3 class="card-title">Gyozas de ternera</h3>
+         
+            <!-- Texto de la card-->
+            <p class="card-text">Contiene 8 piezas de gyozas de ternera</p>
+         
+            <!-- Boton de la card con el precio-->
+            <a href="#" class="btn btn-primary">Pedir 5€</a>
+        
+          </div>
+        </div>                     
       </div>
+
+      <div class="col-12 col-md-6 col-lg-4 ">
+              
+        <!-- Div contenedor de la card-->
+        <div class="card" >
+        
+          <!-- Imagen de la card-->
+          <img src="./img/6.jpg" class="card-img-top" alt="...">
+        
+            <!-- Div contenedor del cuerpo de la card-->
+          <div class="card-body">
+        
+            <!-- Titulo de la card-->
+            <h3 class="card-title">Pan Bao</h3>
+        
+            <!-- Texto de la card-->
+            <p class="card-text">1 pieza de Pan Bao</p>
+        
+            <!-- Boton de la card con el precio-->
+            <a href="#" class="btn btn-primary">Pedir 6€</a>
+        
+          </div>
+        </div>                     
+      </div>
+
+    </div>
+          
+  </div>
+  </div>
+        
+      
     </main>
+
+    <!-- Footer -->
     <footer>
       <div class="container-fluid">
         <div class="container-md">
           <div class="row">
-            <div class="col">
-              <p>© 2021 Sushi Party</p>
+            <div class="col-xs-12 col-md-6">
+              <p>Sushi Party</p>
+              <p>Telefono: 123456789</p>
+              <p>Direccion: Calle Falsa 123</p>
+              <p>Correo: info@sushiparty.com</p>
             </div>
             <div class="col">
               <p>Desarrollado por: Agustin Reseco<a href=""></a></p>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
 </body>
 </html>
