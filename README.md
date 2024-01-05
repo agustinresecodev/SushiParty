@@ -5,6 +5,19 @@ El objetivo de este repositorio es centrarse en el diseño responsive principalm
 
 En los diferentes archivos tendrás comentarios que te ayudaran a entender el como ajustarlo a tu web.
 
+## Decisiones de diseño
+
+#### Esquema de colores
+He optado por un esquema de colores blanco y negro debído a que la mayoria de restaurantes de comida asiatica utilizan ese estilo de colores
+
+#### Menú de navegacion
+He optado por hacer un menú de navegacion responsive que colapse cuando la vista se reduzca para que facilite la navegación a los usuarios moviles
+
+#### Carta
+Para la carta he decidido realizarla mediante cards quie aparezcan en disposición de 3 articulos en pantalla grande 2 en mediana y 1 en vista pequeña.
+Con esto lo que conseguiremos es un diseño agradable y para nada agobiante.
+
+
 ## 1. Tecnologías utilizadas
        
        
